@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Montserrat";
+  margin:0px;
+  background-color:#00539CFF;
+}
+section {
+  min-height: 100vh;
+  width: 100%;
+  padding:15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+.container {
+  width: 600px;
+  height:730px;
+  padding:2em;
+  //padding: 20px;
+  box-shadow:;
+  border-radius:10px;
+  background-color: white;
+}
+.step {
+  display: none;
+}
+.step.active {
+  display: block;
+}
+.form-group {
+  width: 100%;
+  margin-top: 20px;
+  font-weight: 300px;
+    font-size:20px;
+    font-style: normal;
+}
+.form-group input {
+  width: 100%;
+  border: 1.5px solid rgba(128, 128, 128, 0.418);
+  padding: 5px;
+  font-size: 18px;
+  margin-top: 5px;
+  border-radius: 4px;
+}
+
+button.next-btn,
+button.previous-btn,
+button.submit-btn {
+  float: right;
+  background-color:#0880e8 ;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+    padding: .78571429em 1.5em;
+    text-transform: none;
+    text-shadow: none;
+    font-weight: 500;
+    line-height: 1em;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+      margin-top: 15px;
+       padding: 10px 30px;
+  /* text-align: right; */
+}
+button.previous-btn {
+  float: left;
+   background-color:#0880e8 ;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+    padding: .78571429em 1.5em;
+    text-transform: none;
+    text-shadow: none;
+    font-weight: 700;
+    line-height: 1em;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+}
+button.submit-btn {
+  background-color: aquamarine;
+   background-color:#0880e8 ;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+    padding: .78571429em 1.5em;
+    text-transform: none;
+    text-shadow: none;
+    font-weight: 700;
+    line-height: 1em;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+}
+.req{
+  color:red;
+  margin:2px;
+}

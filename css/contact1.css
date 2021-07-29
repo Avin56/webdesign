@@ -1,0 +1,339 @@
+body{
+  background-color: #f1f1f1;}
+  h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif;
+}
+}
+  /* Back to top button */
+.back-to-top {
+  position: fixed;
+  display: none;
+  background: linear-gradient(45deg, #1de099, #1dc8cd);
+  color: #fff;
+  padding: 2px 20px 8px 20px;
+  font-size: 16px;
+  border-radius: 4px 4px 0 0;
+  right: 15px;
+  bottom: 0;
+  transition: none;
+}
+
+.back-to-top:focus {
+  background: linear-gradient(45deg, #1de099, #1dc8cd);
+  color: #fff;
+  outline: none;
+}
+
+.back-to-top:hover {
+  background: #1dc8cd;
+  color: #fff;
+}
+
+#header .navbar-light .navbar-nav .nav-link:focus,
+#header .navbar-light .navbar-nav .nav-link:hover {
+    //color: #ef4211;
+    color: white;
+    background-color: #1aff41d1;
+    border-radius:10px;
+
+}
+.menu nav{
+  padding: 15px 0px;
+}
+.menu .navbar-light .navbar-nav .nav-link {
+  color: white;
+  font-size: 20px;
+}
+#header {
+  height: 100vh;
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+    float: left;
+    width: 100%;
+    
+      overflow: scroll;
+}
+
+.menu{
+    background:#00539CFF;
+}
+.menu ul.navbar-nav {
+    position: absolute;
+    right: 0;
+}
+.menu li.nav-item {
+  padding: 5px;
+    /*margin: 0px 10px;*/
+}
+.menu .navbar-light .navbar-nav .active>.nav-link, #header .navbar-light .navbar-nav .nav-link.active, #header .navbar-light .navbar-nav .nav-link.show, #header .navbar-light .navbar-nav .show>.nav-link {
+   color: white;
+     border-radius: 5px;
+}
+.menu .dropdown-menu.show {
+    border: none;
+}
+.topbar {
+    background-color: black;
+    color: #fff;
+    padding: 4px 0px;
+}
+.topbar ul{
+  margin: 0px;
+  padding: 0px;
+}
+.topbar ul li {
+    float: left;
+    list-style: none;
+    margin: 3px 7px;
+    font-size: 15px;
+}
+.topbar ul li a{
+  color: #fff;
+}
+.topbar ul li i {
+    font-size: 18px;
+    margin-right: 3px;
+}
+.topbar ul li.followus-label {
+    font-weight: bold;
+}
+#header .social-icon {
+    float: right;
+}
+/*=============Responsive css==================*/
+@media (max-width: 991px){
+.topbar ul li {
+    margin: 3px 3px;
+    font-size: 12px;
+}
+.menu ul.navbar-nav {
+    position: static;
+    width: 100%;
+    border-top: 1px solid #ddd;
+    margin: 15px 0px 0px;
+}
+}
+.navbar-light .navbar-toggler {
+    color: rgb(255 254 254);
+    border-color: rgb(255 255 255);
+}
+.navbar-toggler {
+    
+    background-color: white;
+    border: 1px solid white;
+   
+}
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+.section {
+  padding: 80px 0;
+  overflow: hidden;
+}
+
+.section-bg {
+  background-color: white;
+}
+
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  font-family: "Rasa";
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  color: #054a85;
+}
+
+.section-title p {
+  margin-bottom: 0;
+  font-style: italic;
+  font-weight: 500;
+
+}
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+.contact  {
+  
+  /*background: url("D:/image/about-bg.png") left center no-repeat;*/
+  position: relative;
+
+}
+
+.contact:before {
+  content: "";
+  /*background: rgba(255, 255, 255, 0.7);*/
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+ .contact .container {
+  position: relative;
+}
+
+.contact .info {
+  width: 100%;
+}
+
+.contact .info i {
+  font-size: 20px;
+  background: #0880e8;
+  color: #fff;
+  float: left;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact .info h4 {
+  padding: 0 0 0 60px;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  color: #043c6d;
+}
+
+.contact .info p {
+
+  padding: 0 0 0 60px;
+  margin-bottom: 0;
+  font-size: 20px;
+  color: #444444;
+}
+
+.contact .info .email, .contact .info .phone {
+  margin-top: 40px;
+}
+
+@-webkit-keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.details{
+  margin: 20px;
+}
+table, th, td{
+  text-align: left;
+  padding: 16px;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+h5{
+  padding: 15px;
+  color: white;
+  background-color: #337ac5fa;
+  margin-top: 10px;
+  text-align: center;
+}
+.card-img-top img{
+  height: -webkit-fill-available;
+}
+.wallet{
+  margin: 20px;
+}
+form label.required:after
+{
+    color: red;
+    content: " *";
+}
+.form-row>.col, .form-row>[class*=col-] {
+    
+    margin-bottom: 20px;
+}
+
+/*------------radio button hidden options---------------*/
+.box{
+        border-style: groove;
+        padding: 20px;
+        display: none;
+        margin-top: 20px;
+    }
+    .option1{  }
+    .option2{  }
+
+    .option3 h6
+    { 
+    margin: 15px;
+
+     }
+     .option4 
+    { 
+
+     }
+     .option5 
+    { 
+
+     }
+     .option6 
+    { 
+
+     }
+    label{ }
+    /*------------radio button hidden options ENDED---------------*/
+	/*--------------------------------------------------------------
+# Go wallet
+--------------------------------------------------------------*/
+.para {
+  background-color:white;
+    width: 100%;
+    padding:2px;
+    margin: 0 auto;
+    box-shadow: 
+        0px 0px 0px 5px rgba( 255,255,255,0.4 ), 
+        0px 4px 10px rgba( 0,0,255 );
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+     //display: table;
+    //position: static;
+}
+.para p{
+  //font-weight: bold;
+
+}
+.para button{
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  font-weight:400px;
+  font-style: verdana;
+
+}
+.btn-primary{
+ line-height: 2;
+}
+
+
+
+
+
+

@@ -1,0 +1,369 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin:0px;
+  //background-image: url(http://kreativo.se/backlogin.jpg);
+  
+    //color: ;#2d4259
+  //background:#404040 ;
+//background-color:#005A9C;
+
+  
+}
+
+.navbar {
+  overflow: hidden;
+  background-color:#00539CFF;
+  height:50px;
+}
+
+.navbar a {
+  float: right;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.nav img{
+  display: inline-block;
+    vertical-align: middle;
+    margin: 2px;
+    width: 50px;
+    height: 50px;
+  
+}
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.fluid{
+  width: 100%;
+
+}
+.fluid-left{
+  width: 40%;
+  float: left;
+}
+.fluid-right{
+  width: 60%;
+  float: right;
+
+
+}
+.container h2{
+   
+  padding-left:180px;
+	text-align:center;
+	font-size:30px;
+	font-family:Century Gothic Bold;
+  color: white;
+	//color: #00b5ad!important;
+}
+.req{
+  color:red;
+  margin:2px;
+}
+.abw {
+ background-color:white;
+  width: 500px;
+ height:380px;
+  //border: 15px;
+  margin-left:270px ;
+  margin-right:50px;
+ //outline-style: solid;
+ // outline-color: grey;
+  font-size:19px;
+}
+
+.inline-fields{
+	margin:10px;
+	padding:5px;
+  align-items: center;
+  margin-left:50px;
+  padding-top: 15px;
+  //-webkit-align-items: center;
+    align-items: center;
+
+}
+.amn{
+  height:60px;
+  display:grid;
+	padding:5px;
+	margin:10px;
+}
+
+.require{
+  height:60px;
+  display:grid;
+	padding:5px;
+	margin:10px;
+}
+
+.button{
+	width:58%;
+	height:40px;
+	font-size:25px;
+  color:white;
+	background-color:#00b5ad!important;
+	text-align: center;  
+  margin-left:90px;
+
+     // border: 7px solid red;  
+     //width: 300px;  
+    //height: 200px; 
+
+	  
+}
+.login
+{
+  margin:10px;
+}
+
+
+.booking-form-head-agile h3 {
+     margin-top:8px;
+     font-size: 25px;
+     font-weight: 600;
+    color: #000;
+    text-align: center;
+}
+.main h1{
+  text-align: center;
+    color: #fff;
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+.w3layouts_main_grid {
+  background-color:white;
+    width: 70%;
+    padding: 2em;
+    margin: 0 auto;
+    box-shadow: 
+        0px 0px 0px 5px rgba( 255,255,255,0.4 ), 
+        0px 4px 20px rgba( 0,0,0,0.33 );
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+     display: table;
+    position: static;
+    //border: solid 1px;
+    //border-radius:20px;
+    //box-shadow: 0px 8px 16px 0px rgba(255,255,255,0.4 );
+   
+}
+.w3layouts_main_grid  {
+    padding: 2em;
+    display: block;
+    margin-top: 40px;
+}
+.w3layouts_main_grid h5{
+    color: #000;
+    font-weight: 300px;
+    font-size:20px;
+    font-style: normal;
+    margin: .8em 0 0;
+  padding-bottom: 0.5em;
+}
+
+.w3layouts_main_grid input[type="text"]{
+    outline: none;
+    width: 92%;
+    background: #fff;
+    color:#4B4B4B;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #E7E7E7;
+}
+
+.w3layouts_main_grid input[type="email"] {
+    outline: none;
+    width: 100%;
+    background: #fff;
+    color:#4B4B4B;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #E7E7E7;
+}
+.w3layouts_main_grid input[type="varchar"] {
+    outline: none;
+    width: 100%;
+    background: #fff;
+    color:#4B4B4B;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #E7E7E7;
+}
+#category{
+    outline: none;
+    width: 100%;
+    background: #fff;
+    color: #4B4B4B;
+    padding: 10px;
+    font-size: 164px;
+    border: 1px solid #E7E7E7;
+}
+#category1 {
+    outline: none;
+    width:17%;
+    background: #fff;
+    color: #4B4B4B;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #E7E7E7;
+}
+::-webkit-input-placeholder{
+  color:#4B4B4B !important;
+}
+.agileits_w3layouts_main_gridl{
+  float:left;
+  width:68%;
+}
+
+.agileits_w3layouts_main_gridr{
+  float:right;
+  width:32%;
+}
+.w3_main_grid{
+  /*margin:2em 0 0;
+  padding:2em 0 0;*/
+  border-top:1px solid #fff;
+}
+.w3_main_grid_left{
+  float:left;
+  margin: 0.5em 0 0;
+}
+.w3_main_grid_left a{
+  font-size: 1em;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+.w3_main_grid_left a:hover{
+  color:#FF0F75;
+}
+.w3_main_grid_right{
+  /*float:right;*/
+  width: 10%;
+}
+.w3_main_grid_right button[type="submit"]{
+  outline:none;
+  padding:1em;
+  width:100%;
+  text-transform:uppercase;
+  font-size:14px;
+  color:#fff;
+  background:#0880e8;
+  border:none;
+  cursor:pointer;
+}
+.w3_main_grid_right button[type="submit"]:hover{
+  color:#0fab0d;
+  background:#fff;
+}
+.nam1 {
+    float: left;
+    width: 49%;
+    margin-left: 2%;
+}
+.nam {
+    float: left;
+    width: 49%;
+}
+.agileits_grid {
+    margin-bottom: 14px;
+}
+.agileits_w3layouts_main_grid.w3ls_main_grid {
+    margin-bottom: 16px;
+}
+.agileits_main_grid.w3_agileits_main_grid {
+    margin-bottom: 16px;
+
+}
+.banner-agile-top {
+    margin: 1em 0 0 0;
+}
+.back {
+  
+  background-color:#0880e8 ;
+  color: white;
+  cursor: pointer;
+  margin: 0 .25em 0 0;
+  font-size: 20px;
+    padding: .78571429em 1.5em;
+    text-transform: none;
+    text-shadow: none;
+    font-weight: 700;
+    line-height: 1em;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+}
+.grid_right next {
+  float:left;
+  background-color:#0880e8 ;
+  color: white;
+  cursor: pointer;
+  margin: 0 .25em 0 0;
+  font-size: 20px;
+    padding: .78571429em 1.5em;
+    text-transform: none;
+    text-shadow: none;
+    font-weight: 700;
+    line-height: 1em;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  //padding: 8px 16px;
+}
+
+
+
+
+
+
